@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TASK 6</title>
+    <link rel="stylesheet" href="./css_task6.css" type="text/css" />
+  </head>
+  <body>
+    <form>
+      <div class="photo_container">
+        <img src="./css_task6_img.png" alt="login_img" class="photo" />
+      </div>
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input
+          type="text"
+          name="uname"
+          placeholder="Enter Userrname"
+          class="inp_field"
+        />
+        <label for="pw"><b>Password</b></label>
+        <input
+          type="password"
+          name="pw"
+          class="inp_field"
+          placeholder="Enter Password"
+        />
+
+        <button type="submit" class="login_but">Login</button>
+
+        <input type="checkbox" name="remember" class="remember" /> Remember me
+
+        <div class="container2">
+          <button type="button" class="cancel_but">Cancel</button>
+
+          <span class="forgot_pw"
+            >Forgot <a href="#" style="color: black">Password?</a></span
+          >
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

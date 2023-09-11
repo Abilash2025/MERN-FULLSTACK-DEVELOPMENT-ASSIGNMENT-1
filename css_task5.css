@@ -1,0 +1,66 @@
+.square {
+  background-color: #d9da3e;
+  height: 550px;
+  width: 550px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.content {
+  position: absolute;
+  color: purple;
+  top: 10px;
+  left: 200px;
+}
+
+.nav_but1,
+.nav_but2,
+.nav_but3,
+.nav_but4 {
+  position: absolute;
+  display: block;
+  background-color: white;
+  width: 120px;
+  height: 25px;
+  text-align: left;
+  color: blue;
+  text-decoration: none;
+}
+
+.nav_but1 {
+  top: 30px;
+  color: purple;
+}
+
+.nav_but2,
+.blackrec2 {
+  top: 60px;
+}
+
+.nav_but3,
+.blackrec3 {
+  top: 90px;
+}
+
+.nav_but4,
+.blackrec4 {
+  top: 120px;
+}
+
+.blackrec1,
+.blackrec2,
+.blackrec3,
+.blackrec4 {
+  display: block;
+  position: absolute;
+  height: 25px;
+  width: 20px;
+  background-color: black;
+  left: 148px;
+}
+
+.blackrec1 {
+  top: 30px;
+}
